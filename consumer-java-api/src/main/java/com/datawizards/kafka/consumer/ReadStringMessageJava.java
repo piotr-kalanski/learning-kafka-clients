@@ -7,7 +7,7 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ReadStringMessage {
+public class ReadStringMessageJava {
 
     private static final String TOPIC = "test_string";
 

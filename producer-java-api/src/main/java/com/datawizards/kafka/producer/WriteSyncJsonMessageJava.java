@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutionException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class WriteSyncJsonMessage {
+public class WriteSyncJsonMessageJava {
 
     private static final String TOPIC = "test_json";
 

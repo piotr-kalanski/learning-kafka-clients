@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.Properties;
 import java.util.Random;
 
-public class WriteSyncAvroMessage {
+public class WriteSyncAvroMessageJava {
 
     private static final String TOPIC = "test_avro";
 

@@ -6,7 +6,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
-public class WriteSyncStringMessage {
+public class WriteSyncStringMessageJava {
 
     public static final String TOPIC = "test_string";
 
