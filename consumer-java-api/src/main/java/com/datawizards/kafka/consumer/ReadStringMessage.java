@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class ReadStringMessage {
 
-    public static final String TOPIC = "test_string";
+    private static final String TOPIC = "test_string";
 
     public static void main(String[] args) {
         Properties config = new Properties();

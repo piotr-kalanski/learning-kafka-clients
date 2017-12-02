@@ -25,7 +25,7 @@ public class WriteSyncJsonMessage {
 
         for(int i=0;i<100;++i) {
             try {
-                JsonNode  jsonNode = objectMapper.valueToTree(new Person(i, "person_" + i));
+                JsonNode jsonNode = objectMapper.valueToTree(new Person(i, "person_" + i));
                 ProducerRecord<String, JsonNode> record = new ProducerRecord<String, JsonNode>(TOPIC, i + "", jsonNode);
                 producer.send(record).get();
             } catch (InterruptedException e) {

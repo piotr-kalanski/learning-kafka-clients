@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.datawizards.kafka</groupId>
-    <artifactId>kafka-producer-java-api</artifactId>
+    <artifactId>kafka-consumer-java-api</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <repositories>
